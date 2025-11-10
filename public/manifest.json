@@ -1,0 +1,52 @@
+{
+  "name": "YOUNIVERSE Browser",
+  "short_name": "YOUNIVERSE",
+  "description": "A consciousness-aware browser and self-cultivation platform with AI agents, developer tools, and Human Design integration",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#06b6d4",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "development", "utilities", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open consciousness dashboard",
+      "url": "/?view=dashboard",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Developer Mode",
+      "short_name": "Dev Mode",
+      "description": "Open developer studio",
+      "url": "/?view=developer",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Human Design",
+      "short_name": "HD Chart",
+      "description": "Calculate Human Design chart",
+      "url": "/?view=humandesign",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
